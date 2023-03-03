@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    let s = String::from("test string");
+
+    let slic = s[1..3];
 }
